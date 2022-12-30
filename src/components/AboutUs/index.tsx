@@ -13,7 +13,7 @@ type Props = {
 const index = ({ setSelectPage }: Props) => {
   return (
     <section
-      id="Trang chủ"
+      id="Về chúng tôi"
       className="gap-16 bg-gray-20 py-10 lg:h-full bg-orange-50 "
     >
       <motion.div
