@@ -16,7 +16,6 @@ const ContactButton = ({ link, children, icons }: IProps) => {
       target="_blank"
       rel="noreferrer"
     >
-     
       {icons}
       {children}
     </a>

@@ -5,7 +5,7 @@ import banner from "../../assets/zyro-image.png";
 import Logo from "../../assets/logo.png";
 import ContactButton from "@/shared/ContactButton";
 import useMediaQuery from "@/hooks/useMediaQuery";
-import { MapPinIcon } from "@heroicons/react/24/outline";
+import { MapPinIcon, CursorArrowRaysIcon } from "@heroicons/react/24/outline";
 import Banner from "./Banner";
 
 type Props = {
@@ -87,6 +87,9 @@ const index = ({ setSelectPage }: Props) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
+            <span className="animate-bounce -bottom-7 absolute ">
+              <CursorArrowRaysIcon className="w-8 h-full text-white" />
+            </span>
             <ContactButton
               link={
                 "https://www.google.com/maps/dir/21.0221987,105.8172885/20.9858487,106.5520688/@20.9351422,105.6172235,9z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"

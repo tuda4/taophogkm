@@ -5,7 +5,7 @@ import banner from "../../assets/zyro-image.png";
 import Logo from "../../assets/logo.png";
 import ContactButton from "@/shared/ContactButton";
 import useMediaQuery from "@/hooks/useMediaQuery";
-import { PhoneArrowUpRightIcon, MapPinIcon } from "@heroicons/react/24/outline";
+import { PhoneArrowUpRightIcon, CursorArrowRaysIcon } from "@heroicons/react/24/outline";
 import Slider from "@/shared/Slider";
 import foods from "@/assets/food/foods";
 
@@ -73,6 +73,9 @@ const Banner = () => {
               visible: { opacity: 1, x: 0 },
             }}
           >
+             <span className="animate-bounce -bottom-7 absolute ">
+              <CursorArrowRaysIcon className="w-8 h-full text-gray-700" />
+            </span>
             <ContactButton
               link={"tel:+84859318318"}
               icons={<PhoneArrowUpRightIcon width={24} />}
