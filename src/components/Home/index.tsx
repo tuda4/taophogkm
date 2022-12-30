@@ -77,7 +77,7 @@ const index = ({ setSelectPage }: Props) => {
             </div>
           </motion.div>
           <motion.div
-            className="mb-2 z-30 flex items-center gap-8 justify-center relative"
+            className="mb-2 z-20 flex items-center gap-8 justify-center relative"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
