@@ -19,7 +19,7 @@ const index = ({ isTopOfPage, selectPage, setSelectPage }: Props) => {
   return (
     <nav>
       <div
-        className={`${navbarBackground}  ${flexBetween} w-full py-4 fixed top-0 z-30  transition ease-linear duration-200 `}
+        className={`${navbarBackground}  ${flexBetween} w-full py-4 fixed top-0 z-50  transition ease-linear duration-200 `}
       >
         <div className={`${flexBetween} w-5/6 mx-auto`}>
           {isAboveMediumScreen ? (
