@@ -92,7 +92,7 @@ const index = ({ setSelectPage }: Props) => {
             </span>
             <ContactButton
               link={
-                "https://www.google.com/maps/dir/21.0221987,105.8172885/20.9858487,106.5520688/@20.9351422,105.6172235,9z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"
+                "https://www.google.com/maps/dir//20.9858487,106.5520688/@20.9858714,106.5174525,13z"
               }
               icons={<MapPinIcon width={24} />}
               children="Bản đồ"
