@@ -48,46 +48,46 @@ export const Category: category[] = [
 ]
 
 export const tpTruyenThong: food[] = [
-  { name: "Tào phớ nước đường trân châu thạch",price: 12.000, isBestSaler: true },
-  { name: "Tào phớ nước đậu nành",price: 12.000, isBestSaler: false },
-  { name: "Thạch găng trân châu thạch",price: 12.000, isBestSaler: true },
+  { name: "1. Tào phớ nước đường trân châu thạch",price: 12.000, isBestSaler: true },
+  { name: "2. Tào phớ nước đậu nành",price: 12.000, isBestSaler: false },
+  { name: "3. Thạch găng trân châu thạch",price: 12.000, isBestSaler: true },
 ];
 
 export const tpBienTau15k: food[] = [
-  { name: "Tào phớ đậu nành", price: 15.000, isBestSaler: false },
-  { name: "Tào phớ đậu đỏ", price: 15.000, isBestSaler: false },
-  { name: "Tào phớ long nhãn", price: 15.000, isBestSaler: false },
-  { name: "Tào phớ hạt sen", price: 15.000, isBestSaler: false },
-  { name: "Tào phớ nha đam", price: 15.000, isBestSaler: true },
-  { name: "Tào phớ thạch găng", price: 15.000, isBestSaler: false },
-  { name: "Thạch găng nha đam", price: 15.000, isBestSaler: false },
+  { name: "4. Tào phớ đậu nành", price: 15.000, isBestSaler: false },
+  { name: "5. Tào phớ đậu đỏ", price: 15.000, isBestSaler: false },
+  { name: "6. Tào phớ long nhãn", price: 15.000, isBestSaler: false },
+  { name: "7. Tào phớ hạt sen", price: 15.000, isBestSaler: false },
+  { name: "8. Tào phớ nha đam", price: 15.000, isBestSaler: true },
+  { name: "9. Tào phớ thạch găng", price: 15.000, isBestSaler: false },
+  { name: "10. Thạch găng nha đam", price: 15.000, isBestSaler: false },
 ];
 
 export const tpBienTau18k: food[] = [
-  { name: "Tào phớ hạt sen long nhãn",price: 18.000, isBestSaler: false },
-  { name: "Tào phớ hạt sen đậu đỏ", price: 18.000,isBestSaler: false },
-  { name: "Tào phớ long nhãn đậu đỏ",price: 18.000, isBestSaler: false },
+  { name: "11. Tào phớ hạt sen long nhãn",price: 18.000, isBestSaler: false },
+  { name: "12. Tào phớ hạt sen đậu đỏ", price: 18.000,isBestSaler: false },
+  { name: "13. Tào phớ long nhãn đậu đỏ",price: 18.000, isBestSaler: false },
 ];
 
 export const tpBienTau20k: food[] = [
-  { name: "Tào phớ hạt sen đậu đỏ long nhãn",price: 20.000, isBestSaler: true },
-  { name: "Tào phớ thạch găng nha đam đậu đỏ",price: 20.000, isBestSaler: false },
-  { name: "Tào phớ caramen",price: 20.000, isBestSaler: true },
-  { name: "Tào phớ cafe",price: 20.000, isBestSaler: false },
-  { name: "Tào phớ trà thái",price: 20.000, isBestSaler: false },
-  { name: "Tào phớ sữa ngô",price: 20.000, isBestSaler: false },
-  { name: "Tào phớ sầu riêng",price: 20.000, isBestSaler: false },
+  { name: "14. Tào phớ hạt sen đậu đỏ long nhãn",price: 20.000, isBestSaler: true },
+  { name: "15. Tào phớ thạch găng nha đam đậu đỏ",price: 20.000, isBestSaler: false },
+  { name: "16. Tào phớ caramen",price: 20.000, isBestSaler: true },
+  { name: "17. Tào phớ cafe",price: 20.000, isBestSaler: false },
+  { name: "18. Tào phớ trà thái",price: 20.000, isBestSaler: false },
+  { name: "19. Tào phớ sữa ngô",price: 20.000, isBestSaler: false },
+  { name: "20. Tào phớ sầu riêng",price: 20.000, isBestSaler: false },
 ];
 
 export const tpBienTau25k: food[] = [
-  { name: "Tào phớ caramen cafe", price: 25.000, isBestSaler: false },
-  { name: "Tào phớ caramen hạt sen đậu đỏ long nhãn", price: 25.000, isBestSaler: true },
-  { name: "Tào phớ thạch găng nha đam đậu đỏ long caramen", price: 25.000, isBestSaler: true },
+  { name: "21. Tào phớ caramen cafe", price: 25.000, isBestSaler: false },
+  { name: "22. Tào phớ caramen hạt sen đậu đỏ long nhãn", price: 25.000, isBestSaler: true },
+  { name: "23. Tào phớ thạch găng nha đam đậu đỏ long caramen", price: 25.000, isBestSaler: true },
   {
-    name: "Tào phớ thạch găng nha đam hạt sen đậu đỏ long nhãn nha đam",price: 25.000,
+    name: "24. Tào phớ thạch găng nha đam hạt sen đậu đỏ long nhãn nha đam",price: 25.000,
     isBestSaler: true,
   },
-  { name: "Tào phớ matcha caramen",price: 25.000, isBestSaler: true },
+  { name: "25. Tào phớ matcha caramen",price: 25.000, isBestSaler: true },
 ];
 
 export const che : food[] = [
@@ -198,42 +198,32 @@ export const junkFood : food[] = [
         isBestSaler: true,
     },
     {
+        name: "Đùi gà, cánh gà KFC",
+        price:350.000,
+        isBestSaler: true,
+    },
+    {
         name: "Xúc xích rán",
         price: 10.000,
         isBestSaler: false,
     },
     {
-        name: "Bò khô",
+        name: "Kim bắp chiên (thường)",
+        price: 35.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Ngô chiên",
+        price: 35.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Bò khô, gà khô, heo khô",
         price: 25.000,
         isBestSaler: false,
     },
     {
-        name: "Khô gà lá chanh",
-        price: 25.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Heo khô cháy tỏi",
-        price: 25.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Caramen",
-        price: 8.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Bánh kẹp phô mai sữa",
-        price: 12.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Bánh kẹp phô mai thịt nguội",
-        price: 12.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Bánh kẹp phô mai xúc xích",
+        name: "Bánh kẹp",
         price: 12.000,
         isBestSaler: false,
     },
@@ -256,16 +246,6 @@ export const koreanFastFood : food[] = [
         isBestSaler: false,
     },
     {
-        name: "Bánh gạo lắc phomai",
-        price: 30.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Kimbap chiên",
-        price: 35.000,
-        isBestSaler: false,
-    },
-    {
         name: "Sotoksotok (xiên bánh gạo, chả cá, xúc xích)",
         price: 15.000,
         isBestSaler: true,
@@ -276,8 +256,18 @@ export const koreanFastFood : food[] = [
         isBestSaler: false,
     },
     {
-        name: "Set gà hộp (gà sốt, khoai lắc, xúc xích, trà chanh)",
-        price: 90.000,
+        name: "Tokbokki xào cay",
+        price: 30.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Tokbokki xào cay phủ phô mai",
+        price: 40.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Tokbokki thập cẩm phủ pho mai",
+        price: 50.000,
         isBestSaler: false,
     },
 ]
@@ -312,19 +302,69 @@ export const hotDog : food[] = [
 
 export const drinks : food[] = [
     {
-        name: "Trà sữa ô long Đà Lạt",
+        name: "Hồng trà sữa",
         price: 35.000,
         isBestSaler: false,
     },
     {
-        name: "Trà dứa mật",
+        name: "Trà nhài sữa",
         price: 35.000,
         isBestSaler: false,
     },
     {
-        name: "Trà trái cây nhiệt đới",
+        name: "Sữa tươi trân châu đường đen",
         price: 35.000,
         isBestSaler: true,
+    },
+    {
+        name: "Trà thạch đào",
+        price: 35.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Trà vải cam dâu",
+        price: 35.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Trà sen dâu",
+        price: 35.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Trà vải dưa hấu",
+        price: 35.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Dưa hấu hoa đậu biếc",
+        price: 35.000,
+        isBestSaler: true,
+    },
+    {
+        name: "Trà trái cây multi Juice",
+        price: 35.000,
+        isBestSaler: true,
+    },
+    {
+        name: "Trà đào cam sả",
+        price: 35.000,
+        isBestSaler: true,
+    },
+    {
+        name: "Trà ổi hồng",
+        price: 35.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Trà hoa đậu biếc cream",
+        price: 35.000,
+        isBestSaler: true,
+    },
+    {
+        name: "Nước cam tươi",
+        price: 35.000,
+        isBestSaler: false,
     },
     {
         name: "Socola nóng",
@@ -332,57 +372,12 @@ export const drinks : food[] = [
         isBestSaler: false,
     },
     {
-        name: "Trà chanh",
-        price: 20.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Trà dâu",
+        name: "Sữa chua lắc (việt quất, dâu tây, dâu tây, kiwi)",
         price: 30.000,
         isBestSaler: false,
     },
     {
-        name: "Trà đào",
-        price: 25.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Trà đào cam sả",
-        price: 30.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Trà nhài chanh leo",
-        price: 30.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Trà ô long kem soy",
-        price: 35.000,
-        isBestSaler: true,
-    },
-    {
-        name: "Nước chanh tươi",
-        price: 20.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Nước cam tươi",
-        price: 30.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Sữa chua lắc (việt quất, dâu tây,...)",
-        price: 25.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Sữa đậu nành",
-        price: 15.000,
-        isBestSaler: false,
-    },
-    {
-        name: "Coca",
+        name: "Sữa đậu nành, coca",
         price: 15.000,
         isBestSaler: false,
     },
@@ -405,13 +400,28 @@ export const otherFood: food[] = [
         isBestSaler: true,
     },
     {
+        name: "Phở chiên trứng",
+        price: 80.000,
+        isBestSaler: true,
+    },
+    {
         name: "Phở/Bún trộn bò",
         price: 40.000,
         isBestSaler: false,
     },
     {
-        name: "Ngô chiên",
-        price: 35.000,
+        name: "Cơm trộn",
+        price: 40.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Cơm gà",
+        price: 45.000,
+        isBestSaler: false,
+    },
+    {
+        name: "Mỳ ý",
+        price: 40.000,
         isBestSaler: false,
     },
 ] 
