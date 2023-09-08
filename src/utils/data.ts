@@ -199,7 +199,7 @@ export const junkFood : food[] = [
     },
     {
         name: "Đùi gà, cánh gà KFC",
-        price:350.000,
+        price:35.000,
         isBestSaler: true,
     },
     {
