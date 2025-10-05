@@ -1,18 +1,14 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { SelectPage } from "@/shared/types";
 import ContactButton from "@/shared/ContactButton";
-import useMediaQuery from "@/hooks/useMediaQuery";
-import Logo from "../../assets/logo.png";
-import slider from "@/assets/slider/slider";
-import Slider from "../../shared/Slider";
-import { BsFacebook, BsTelephonePlus, BsMessenger } from "react-icons/bs";
+import { SelectPage } from "@/shared/types";
+import { motion } from "framer-motion";
+import { BsFacebook, BsTelephonePlus } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 type Props = {
   setSelectPage: (value: SelectPage) => void;
 };
 
 const index = ({ setSelectPage }: Props) => {
+  const year = new Date().getFullYear();
   return (
     <section
       id="Feedback"
@@ -77,7 +73,7 @@ const index = ({ setSelectPage }: Props) => {
       <div className="">
         
         <h1 className="text-center text-sm text-[#292048]">
-          &#169; {`2023 - Tào phớ garden Kinh Môn (Tào phớ garden - 2017)`}
+          &#169; {`${year} - Tào phớ garden Kinh Môn (Tào phớ garden - 2017)`}
         </h1>
       </div>
     </section>
