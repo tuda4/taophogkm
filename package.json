@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
-    "@types/node": "^18.11.18",
+    "@types/node": "^22.11.18",
     "@types/react-anchor-link-smooth-scroll": "^1.0.2",
     "autoprefixer": "^10.4.13",
     "framer-motion": "^8.0.2",
